@@ -25,9 +25,10 @@
        yum install wget
     
     3. To install Jenkins on to your operating system, follow the latest documentation provided by Jenkins. At the time of writing, you first need to configure  yum by adding the Jenkins repository and then import the repository GPG key:
-
-      wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
-      rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+      
+      `wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+      
+      rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key`
   
     4. You can check the presence of the repo using this command:
 
