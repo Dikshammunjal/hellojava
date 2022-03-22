@@ -129,6 +129,45 @@
 
 ### Install Git and Maven in Jenkins
 
+1. ssh to Jenkins Machine
+2. sudo yum install git
+3. git --version
+4. Output like git version 2.27.0 should come
+5. which git
+6. export PATH=$PATH:/place/with/the/file
+7. Where /place/with/the/file is the path to the Git installation.
+8. Once you performed this change, you can log in again in your system and check it running the git --version command and the which git command.
+9. Jenkins will need to be restarted for the PATH environment variable change to be reflected in Jenkins.
+10. Login into the Jenkins instance as an administrator.
+11. Go to Manage Jenkins -> Global Tool Configuration -> Git -> Git installations
+12. Type git in the Path to Git executable of each Git installation where you want to use the Git installation binary included in the $PATH environment variable.
+13. <img width="963" alt="image" src="https://user-images.githubusercontent.com/57708209/159470342-00f56b7a-3dd0-475a-bc83-2819fdb024f8.png">
+
+14. Reference Link-https://support.cloudbees.com/hc/en-us/articles/360048202171-Using-PATH-in-Git-Configuration
+15. Go to https://maven.apache.org/download.cgi
+16. copy link for apache-maven-3.8.5-bin.tar.gz	
+17. sudo su -
+18. cd /opt
+19. wget 
+20. tar xvzf apache-maven-3.8.5-bin.tar.gz	
+21. cd /opt/apache-maven-3.8.5
+22. <img width="1034" alt="image" src="https://user-images.githubusercontent.com/57708209/159471546-e833372f-b5ad-4212-8d0e-8e814e30ce5b.png">
+
+23. Paste this in under Global configurations MAVEN_HOME
+24. if we run mvn in current path it will error saying command not found. if we go inside bin and run ./mvn it will run. that means not available for all users
+25. cd bin
+26. ln -s /opt/apache-maven-3.8.5/bin/mvn /bin
+27. su - jenkins
+28. mvn --version
+29. It should work now.
+
+
+
+
+
+
+
+
 
 
 
