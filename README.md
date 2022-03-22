@@ -167,6 +167,8 @@
 ### Configure a Job in Jenkins to deploy the generated war to Tomcat Server and access the web content via browser
 ### Automatic Builds in Jenkins
 
+Install "Deploy to Container" Plugin. Once its installed you should be able to see the option to deploy war/ear files to conatiner under post-build actions
+
 <img width="1253" alt="image" src="https://user-images.githubusercontent.com/57708209/159479864-aa97a460-42f7-4b2a-a899-699b63ceb63a.png">
 
 <img width="906" alt="image" src="https://user-images.githubusercontent.com/57708209/159479941-daab8ede-dc56-45ea-b78d-3dde80b7c159.png">
@@ -175,6 +177,22 @@
 
 
 <img width="1014" alt="image" src="https://user-images.githubusercontent.com/57708209/159480111-5203e2cc-095c-459a-8397-d55adcd61cbe.png">
+
+
+<img width="1305" alt="image" src="https://user-images.githubusercontent.com/57708209/159480620-d0d1fd95-18c2-419c-a17f-2ce9f8e89ae5.png">
+
+To verify ssh to tomcat machine and you will find webapp.war and webapp folder getting created
+
+<img width="594" alt="image" src="https://user-images.githubusercontent.com/57708209/159481677-9ce41a21-3ae9-4e8e-bbc7-1201b5c86c36.png">
+
+
+http://144.24.103.222/webapp/
+
+<img width="1121" alt="image" src="https://user-images.githubusercontent.com/57708209/159481833-82dad167-9417-4dbe-8208-d75fa6fd81be.png">
+
+
+
+
 
 
 
