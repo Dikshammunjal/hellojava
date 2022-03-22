@@ -163,6 +163,18 @@
 30. Reference Link- https://www.youtube.com/watch?v=BxBHrm_lf4Q
 
 
+### Configure a Job in Jenkins to build the Java Code
+### Configure a Job in Jenkins to deploy the generated war to Tomcat Server and access the web content via browser
+### Automatic Builds in Jenkins
+
+<img width="1253" alt="image" src="https://user-images.githubusercontent.com/57708209/159479864-aa97a460-42f7-4b2a-a899-699b63ceb63a.png">
+
+<img width="906" alt="image" src="https://user-images.githubusercontent.com/57708209/159479941-daab8ede-dc56-45ea-b78d-3dde80b7c159.png">
+
+<img width="1002" alt="image" src="https://user-images.githubusercontent.com/57708209/159480020-76e366f8-7078-474b-a176-6f8e9395f10d.png">
+
+
+<img width="1014" alt="image" src="https://user-images.githubusercontent.com/57708209/159480111-5203e2cc-095c-459a-8397-d55adcd61cbe.png">
 
 
 
