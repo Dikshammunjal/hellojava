@@ -160,6 +160,7 @@
 27. su - jenkins
 28. mvn --version
 29. It should work now.
+30. Reference Link- https://www.youtube.com/watch?v=BxBHrm_lf4Q
 
 
 
