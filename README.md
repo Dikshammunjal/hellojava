@@ -7,6 +7,8 @@
 5. Configure a Job in Jenkins to deploy the generated war to Tomcat Server and access the web content via browser
 6. Automatic Builds in Jenkins
 
+<img width="838" alt="image" src="https://user-images.githubusercontent.com/57708209/159626998-1511f0a2-6b20-4ccc-9180-7017c4462d82.png">
+
 
 ### Provision Jenkins on OCI
 
